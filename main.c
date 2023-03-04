@@ -1,7 +1,8 @@
-// I confirm that this assignment is my own work - P311414
-
 /*
-The program that was requested is based on a chessboard with 8 X 8 dimensions, in which a “knight” should start from the top right of the chessboard and land on each square only once. As mentioned, the movements of the knight should be similar of the knights L-shape movements in real-life chess. The program is meant to be developed using the depth-first search algorithm. The module tutor provided a code template for the coursework, which was a maze, however it was modified. The code had to be altered to fit the requirements of the knight’s movements and allow it to move freely as the template provided was a maze with walls in between squares. To begin with, the program allows the user to freely adjust the dimensions of the chessboard, and a variable is created to initialize the count of the steps taken by the knight. Many functions were created for the purpose of this program. Starting with a function initializing the chessboard, the next function focused on implementing the depth-first search algorithm by declaring the directions the knight could navigate in. The function includes a shuffle function embedded to randomize steps to be taken. Another function helps in instruction the knight to move in the correct steps in how it navigates inside the chessboard using rows and columns, moreover, it increments the step counter variable to be taken by the knight. The next function assists in making sure knight’s movements are inside the chessboard dimensions and not out of bounds, and check whether the square that is yet to be moved to has been visited or not. Another function was designed to print the results of the steps taken in the chessboard so the user can observe the route taken by the knight.
+The program that was requested is based on a chessboard with 8 X 8 dimensions,
+in which a “knight” should start from the top right of the chessboard and land on each square only once. 
+As mentioned, the movements of the knight should be similar of the knights L-shape movements in real-life chess.
+The program is to be developed using the depth-first search algorithm. 
 */
   
 #include <stdio.h>
